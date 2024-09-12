@@ -30,10 +30,13 @@ public class WordCounting {
             File myObj = new File("org/howard/edu/lsp/assignment2/words.txt");
             
             Scanner myReader = new Scanner(myObj);
-            while (myReader.hasNextLine()) {
+            while (myReader.hasNext()) {
                 // String data = myReader.nextLine();
                 // System.out.println(myReader.hasNext());
                 String word = myReader.next();
+
+                // had an error where if I had an ! or , or puctuation it would crash 
+                //word = word.replaceAll("[^a-zA-Z]", ""); 
                 if (isNumeric(word)==false && word.length()>3) 
                 {
                     word = word.toLowerCase();
