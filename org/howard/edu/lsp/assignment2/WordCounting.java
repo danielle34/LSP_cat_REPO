@@ -36,7 +36,7 @@ public class WordCounting {
                 String word = myReader.next();
 
                 // had an error where if I had an ! or , or puctuation it would crash 
-                //word = word.replaceAll("[^a-zA-Z]", ""); 
+                word = word.replaceAll("[^a-zA-Z]", ""); 
                 if (isNumeric(word)==false && word.length()>3) 
                 {
                     word = word.toLowerCase();
