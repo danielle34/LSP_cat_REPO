@@ -1,7 +1,7 @@
 /**
 *  Name: Morayo Adeyemi
 */
-package org.howard.edu.lsp.assignment1.midterm.question4;
+package org.howard.edu.lsp.midterm.question4;
 
 public class HelloWorld {
 	public static void main(String[] args) {
