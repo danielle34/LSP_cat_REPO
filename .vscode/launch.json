@@ -1,0 +1,122 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "HelloWorld",
+            "request": "launch",
+            "mainClass": "org.howard.edu.lsp.assignment1.HelloWorld",
+            "projectName": "LSP_REPO_cat_badebf5"
+        },
+        {
+            "type": "java",
+            "name": "WordCounting",
+            "request": "launch",
+            "mainClass": "org.howard.edu.lsp.assignment2.WordCounting",
+            "projectName": "LSP_REPO_cat_badebf5"
+        },
+        {
+            "type": "java",
+            "name": "Driver",
+            "request": "launch",
+            "mainClass": "org.howard.edu.lsp.assignment5.Driver",
+            "projectName": "LSP_REPO_cat_badebf5"
+        },
+        {
+            "type": "java",
+            "name": "Driver(1)",
+            "request": "launch",
+            "mainClass": "org.howard.edu.lsp.assignment6.Driver",
+            "projectName": "LSP_REPO_cat_badebf5"
+        },
+        {
+            "type": "java",
+            "name": "HelloWorld(1)",
+            "request": "launch",
+            "mainClass": "org.howard.edu.lsp.midterm.HelloWorld",
+            "projectName": "LSP_REPO_cat_badebf5"
+        },
+        {
+            "type": "java",
+            "name": "BookDriver",
+            "request": "launch",
+            "mainClass": "org.howard.edu.lsp.midterm.question1.BookDriver",
+            "projectName": "LSP_REPO_cat_badebf5"
+        },
+        {
+            "type": "java",
+            "name": "HelloWorld(2)",
+            "request": "launch",
+            "mainClass": "org.howard.edu.lsp.midterm.question1.HelloWorld",
+            "projectName": "LSP_REPO_cat_badebf5"
+        },
+        {
+            "type": "java",
+            "name": "CalculatorDriver",
+            "request": "launch",
+            "mainClass": "org.howard.edu.lsp.midterm.question2.CalculatorDriver",
+            "projectName": "LSP_REPO_cat_badebf5"
+        },
+        {
+            "type": "java",
+            "name": "HelloWorld(3)",
+            "request": "launch",
+            "mainClass": "org.howard.edu.lsp.midterm.question2.HelloWorld",
+            "projectName": "LSP_REPO_cat_badebf5"
+        },
+        {
+            "type": "java",
+            "name": "HelloWorld(4)",
+            "request": "launch",
+            "mainClass": "org.howard.edu.lsp.midterm.question3.HelloWorld",
+            "projectName": "LSP_REPO_cat_badebf5"
+        },
+        {
+            "type": "java",
+            "name": "VotingMachineDriver",
+            "request": "launch",
+            "mainClass": "org.howard.edu.lsp.midterm.question3.VotingMachineDriver",
+            "projectName": "LSP_REPO_cat_badebf5"
+        },
+        {
+            "type": "java",
+            "name": "HelloWorld(5)",
+            "request": "launch",
+            "mainClass": "org.howard.edu.lsp.midterm.question4.HelloWorld",
+            "projectName": "LSP_REPO_cat_badebf5"
+        },
+        {
+            "type": "java",
+            "name": "MapUtilitiesDriver",
+            "request": "launch",
+            "mainClass": "org.howard.edu.lsp.midterm.question4.MapUtilitiesDriver",
+            "projectName": "LSP_REPO_cat_badebf5"
+        },
+
+        {
+            "type": "java",
+            "name": "MathUtils",
+            "request": "launch",
+            "mainClass": "org.howard.edu.lsp.finalexam.question1.MathUtils",
+            "projectName": "LSP_REPO_cat_badebf5"
+        },
+        {
+            "type": "java",
+            "name": "MathUtilsTest",
+            "request": "launch",
+            "mainClass": "org.howard.edu.lsp.finalexam.question1.MathUtilsTest",
+            "projectName": "LSP_REPO_cat_badebf5"
+        }
+        
+        
+    ]
+}
