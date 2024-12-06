@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ShapeRendererDriver",
+            "request": "launch",
+            "mainClass": "org.howard.edu.lsp.finalexam.question3.ShapeRendererDriver",
+            "projectName": "LSP_cat_REPO_749c463e"
+        },
+        {
+            "type": "java",
+            "name": "MathUtilsDriver",
+            "request": "launch",
+            "mainClass": "org.howard.edu.lsp.finalexam.question1.MathUtilsDriver",
+            "projectName": "LSP_cat_REPO_749c463e"
+        },
+        {
+            "type": "java",
+            "name": "RandomNumberClient",
+            "request": "launch",
+            "mainClass": "org.howard.edu.lsp.finalexam.question2.RandomNumberClient",
+            "projectName": "LSP_cat_REPO_749c463e"
+        },
+        {
+            "type": "java",
+            "name": "TestDriver",
+            "request": "launch",
+            "mainClass": "org.howard.edu.lsp.finalexam.question1.TestDriver",
+            "projectName": "LSP_cat_REPO_749c463e"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
@@ -101,7 +129,6 @@
             "mainClass": "org.howard.edu.lsp.midterm.question4.MapUtilitiesDriver",
             "projectName": "LSP_REPO_cat_badebf5"
         },
-
         {
             "type": "java",
             "name": "MathUtils",
@@ -116,7 +143,5 @@
             "mainClass": "org.howard.edu.lsp.finalexam.question1.MathUtilsTest",
             "projectName": "LSP_REPO_cat_badebf5"
         }
-        
-        
     ]
 }

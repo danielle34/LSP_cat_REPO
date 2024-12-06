@@ -7,8 +7,7 @@ public class MathUtils {
      */
     public int factorial(int n) {
         if (n < 0) {
-            throw new IllegalArgumentException("Number must be 
-               non-negative");
+            throw new IllegalArgumentException("Number must benon-negative");
         }
         if (n == 0 || n == 1) {
             return 1;
@@ -39,8 +38,7 @@ public class MathUtils {
      */
     public int gcd(int a, int b) {
         if (a == 0 && b == 0) {
-            throw new IllegalArgumentException(
-"Both numbers cannot be zero");
+            throw new IllegalArgumentException("Both numbers cannot be zero");
         }
         a = Math.abs(a);
         b = Math.abs(b);
@@ -50,4 +48,5 @@ public class MathUtils {
             a = temp;
         }
         return a;
-    }
+}
+}

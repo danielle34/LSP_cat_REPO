@@ -4,8 +4,9 @@ import java.util.Random;
 
 /**
  * Implements random number generation using Java's built-in Random class.
+ * https://thelinuxcode.com/java-random-nextint-method/ for positive
  */
-public class BuiltInRandomStrategy implements RandomNumberStrategy {
+public class BasicInRandomStrategy implements RandomNumberStrategy {
     private final Random random = new Random();
 
     /**
@@ -15,6 +16,6 @@ public class BuiltInRandomStrategy implements RandomNumberStrategy {
      */
     @Override
     public int generateRandomNumber() {
-        return random.nextInt(Integer.MAX_VALUE) + 1; // Ensures positive integers only.
+        return random.nextInt(Integer.MAX_VALUE) + 1; 
     }
 }

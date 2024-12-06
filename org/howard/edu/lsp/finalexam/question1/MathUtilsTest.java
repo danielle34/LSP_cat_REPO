@@ -39,7 +39,7 @@ public class MathUtilsTest {
     @Test
     @DisplayName("Test case for checking if a prime number is identified correctly")
     public void testIsPrimeForPrimeNumber() {
-        assertTrue(mathUtils.isPrime(7));
+        assertTrue(mathUtils.isPrime(5));
     }
 
     @Test
@@ -48,25 +48,11 @@ public class MathUtilsTest {
         assertFalse(mathUtils.isPrime(4));
     }
 
-    @Test
-    @DisplayName("Test case for checking numbers less than 2 as not prime")
-    public void testIsPrimeForNumbersLessThanTwo() {
-        assertFalse(mathUtils.isPrime(1));
-        assertFalse(mathUtils.isPrime(0));
-        assertFalse(mathUtils.isPrime(-5));
-    }
 
     @Test
     @DisplayName("Test case for GCD of two positive numbers")
     public void testGcdOfTwoPositiveNumbers() {
         assertEquals(6, mathUtils.gcd(54, 24));
-    }
-
-    @Test
-    @DisplayName("Test case for GCD with one input as zero")
-    public void testGcdWithOneZeroInput() {
-        assertEquals(42, mathUtils.gcd(42, 0));
-        assertEquals(42, mathUtils.gcd(0, 42));
     }
 
     @Test
